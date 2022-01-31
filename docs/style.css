@@ -100,7 +100,6 @@ ul {
     width: 1400px;
 }
 
-
 .left-description {
     display: flex;
     flex-direction: column;
@@ -164,7 +163,7 @@ ul {
     color: white;
 }
 
-.works-dscrpt{
+.works-dscrpt {
     padding-top: 25px;
 }
 
@@ -188,6 +187,11 @@ ul {
 
 .footer-social-item {
     margin-right: 35px;
+}
+
+.footer-social-item:hover {
+    transform: translateY(5px);
+    transition: 2ps;
 }
 
 .footer-copyright {
