@@ -141,8 +141,9 @@ ul {
 
 .works-cards {
     display: flex;
+    margin-bottom: 150px;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom: 80px;
 }
 
 .works-righ-card {
@@ -152,17 +153,19 @@ ul {
 }
 
 .works-name {
-    margin-bottom: 35px;
+    padding-bottom: 50px;
 }
 
 .works-download {
-    margin-bottom: 35px;
-    width: 120px;
-    height: 50px;
+    padding: 15px 30px;
     background-color: #292929;
     border-radius: 2px;
     border: none;
     color: white;
+}
+
+.works-dscrpt{
+    padding-top: 25px;
 }
 
 .works-cards-prev {
@@ -185,38 +188,6 @@ ul {
 
 .footer-social-item {
     margin-right: 35px;
-}
-
-.social-link {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: contain;
-    background-position: center center;
-}
-
-.social-fb {
-    width: 30px;
-    height: 30px;
-    background-image: url('img/fb.png');
-}
-
-.social-inst {
-    width: 30px;
-    height: 30px;
-    background-image: url('img/insta.png');
-}
-
-.social-telegram {
-    width: 30px;
-    height: 30px;
-    background-image: url('img/telegram.png');
-}
-
-.social-linkedin {
-    width: 30px;
-    height: 30px;
-    background-image: url('img/linkedin.png');
 }
 
 .footer-copyright {
