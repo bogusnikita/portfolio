@@ -171,6 +171,10 @@ ul {
     border-radius: 45px;
 }
 
+.footer-social {
+    text-align: center;
+}
+
 .footer-social-list {
     display: flex;
     justify-content: center;
