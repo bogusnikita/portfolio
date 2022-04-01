@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    min-width: 1580px;
+}
+
 html,
 body {
     padding: 0;
